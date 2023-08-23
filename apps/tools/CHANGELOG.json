@@ -2,6 +2,18 @@
   "name": "tools",
   "entries": [
     {
+      "version": "1.0.2",
+      "tag": "tools_v1.0.2",
+      "date": "Wed, 23 Aug 2023 07:58:30 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "新增hh2 变量"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.1",
       "tag": "tools_v1.0.1",
       "date": "Wed, 23 Aug 2023 07:36:08 GMT",
