@@ -16,9 +16,6 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "paths": {
-      "tools": ["apps/tools"]
-    }
   },
   "exclude": ["node_modules"]
 }
