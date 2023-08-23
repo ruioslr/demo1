@@ -1,0 +1,17 @@
+{
+  "name": "main",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "main_v1.0.1",
+      "date": "Wed, 23 Aug 2023 07:03:33 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "改了一些东西"
+          }
+        ]
+      }
+    }
+  ]
+}
