@@ -1,0 +1,75 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@rush-temp/main': file:./projects/main.tgz
+  '@rush-temp/tools': file:./projects/tools.tgz
+  react: ~18.2.0
+  react-dom: ~18.2.0
+
+dependencies:
+  '@rush-temp/main': file:projects/main.tgz
+  '@rush-temp/tools': file:projects/tools.tgz_react@18.2.0
+  react: 18.2.0
+  react-dom: 18.2.0_react@18.2.0
+
+packages:
+
+  /js-tokens/4.0.0:
+    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
+    dev: false
+
+  /loose-envify/1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
+    hasBin: true
+    dependencies:
+      js-tokens: 4.0.0
+    dev: false
+
+  /react-dom/18.2.0_react@18.2.0:
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+    peerDependencies:
+      react: ^18.2.0
+    dependencies:
+      loose-envify: 1.4.0
+      react: 18.2.0
+      scheduler: 0.23.0
+    dev: false
+
+  /react/18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: false
+
+  /scheduler/0.23.0:
+    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: false
+
+  /typescript/5.1.6:
+    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: false
+
+  file:projects/main.tgz:
+    resolution: {integrity: sha512-DDJc2fNd7ASayBj1aaw3ktJu78h6hHnvF85YeU296i25utTGNEZVyxz5D8q7nlG3kWidyAktesV0jydSrk7qag==, tarball: file:projects/main.tgz}
+    name: '@rush-temp/main'
+    version: 0.0.0
+    dependencies:
+      react: 18.2.0
+      typescript: 5.1.6
+    dev: false
+
+  file:projects/tools.tgz_react@18.2.0:
+    resolution: {integrity: sha512-cwrrJlmVO8lK6or2lmGUhkAtxWaytPrKE3ZSExwXqV5+u35BSD4cUvuZaMqctMBNk2JNsNdX9f0OB9wdJHhdTw==, tarball: file:projects/tools.tgz}
+    id: file:projects/tools.tgz
+    name: '@rush-temp/tools'
+    version: 0.0.0
+    dependencies:
+      react-dom: 18.2.0_react@18.2.0
+    transitivePeerDependencies:
+      - react
+    dev: false
