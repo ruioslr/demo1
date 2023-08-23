@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "react": "~18.2.0",
-    "tools": "~1.0.1"
+    "tools": "workspace:*"
   }
 }
