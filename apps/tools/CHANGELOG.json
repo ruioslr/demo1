@@ -1,0 +1,17 @@
+{
+  "name": "tools",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "tools_v1.0.1",
+      "date": "Wed, 23 Aug 2023 07:36:08 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "tool 增加变量"
+          }
+        ]
+      }
+    }
+  ]
+}
