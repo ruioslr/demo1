@@ -1,6 +1,13 @@
 # Change Log - main
 
-This log was last generated on Wed, 23 Aug 2023 07:13:25 GMT and should not be manually modified.
+This log was last generated on Wed, 23 Aug 2023 07:15:41 GMT and should not be manually modified.
+
+## 1.1.1
+Wed, 23 Aug 2023 07:15:41 GMT
+
+### Patches
+
+- 修复2
 
 ## 1.1.0
 Wed, 23 Aug 2023 07:13:25 GMT
