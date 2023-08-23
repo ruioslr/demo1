@@ -2,6 +2,18 @@
   "name": "main",
   "entries": [
     {
+      "version": "1.1.3",
+      "tag": "main_v1.1.3",
+      "date": "Wed, 23 Aug 2023 08:16:31 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": " 添加x变量"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.1.2",
       "tag": "main_v1.1.2",
       "date": "Wed, 23 Aug 2023 07:58:30 GMT",
