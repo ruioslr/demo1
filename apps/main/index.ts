@@ -6,4 +6,5 @@ export const a = 1
 export  const e = c + d;
 
 export const f = 5;
+export const g = 5;
 
